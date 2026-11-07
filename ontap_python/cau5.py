@@ -19,7 +19,7 @@ class DienThoai:
 
 def main():
     dt01 = DienThoai("DT01", "iPhone 15 Pro", "Apple", 3274, 28990000)
-    dt02 = DienThoai("DT02", "Galaxy S24 Ultra", "Samsung", 5000, 27990000)
+    dt02 = DienThoai("DT02", "Galaxy S24 Ultra", "Samsung", 5000, 27900000)
 
     print("=== DIEN THOAI 1 ===")
     dt01.thongtindienthoai()
