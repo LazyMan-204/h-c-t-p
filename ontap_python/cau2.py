@@ -1,8 +1,8 @@
-"""Cau 2: Xu ly chuoi - dem chu cai, doi xung, tong cac chu so."""
+"""Cau 2: Xu ly chuoi - dem chu hoa, doi xung, tong cac chu so."""
 
 
-def dem_chu_cai(s):
-    return sum(1 for ky_tu in s if ky_tu.isalpha())
+def dem_chu_hoa(s):
+    return sum(1 for ky_tu in s if ky_tu.isupper())
 
 
 def la_chuoi_doi_xung(s):
@@ -18,7 +18,7 @@ def tinh_tong_chu_so(s):
 def main():
     s = input("Nhap mot chuoi: ")
 
-    print("So ky tu chu cai:", dem_chu_cai(s))
+    print("So ky tu chu hoa:", dem_chu_hoa(s))
     if la_chuoi_doi_xung(s):
         print("Chuoi doi xung.")
     else:
